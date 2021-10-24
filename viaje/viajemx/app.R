@@ -13,32 +13,29 @@ library(shiny)
 ui <- fluidPage(
 
     # Application title
-    titlePanel("Old Faithful Geyser Data"),
+    titlePanel("REGALO DE CUMPLEAÑOS - CON CARIÑO DE MARI Y CHUS"),
 
     # Sidebar with a slider input for number of bins 
     tabsetPanel(                
         type = "pills",
         tabPanel(
-            "FELIZ CUMPLEANOS"
+            "¡¡FELIZ CUMPLEAÑOS!!",
+            img(src="https://raw.githubusercontent.com/jesupb/viaje/main/viaje/www/Slide1.JPG", 
+                height="100%", width="100%", align="left")
         ),
         tabPanel(
             "DESTINO 1",
-            img(src="https://raw.githubusercontent.com/jesupb/wedding-shiny-app/main/wedding_info/www/cronograma.png", 
+            img(src="https://raw.githubusercontent.com/jesupb/viaje/main/viaje/www/Slide2.JPG", 
                 height="100%", width="100%", align="left")
         ),
         tabPanel(
             "DESTINO 2",
-            img(src="https://raw.githubusercontent.com/jesupb/wedding-shiny-app/main/wedding_info/www/menu.png", 
+            img(src="https://raw.githubusercontent.com/jesupb/viaje/main/viaje/www/Slide4.JPG", 
                 height="100%", width="100%", align="left")
         ),
         tabPanel(
             "DESTINO 3",
-            img(src="https://raw.githubusercontent.com/jesupb/wedding-shiny-app/main/wedding_info/www/menu_coctel.png", 
-                height="100%", width="100%", align="left")
-        ),
-        tabPanel(
-            "Bebidas",
-            img(src="https://raw.githubusercontent.com/jesupb/wedding-shiny-app/main/wedding_info/www/menu_bar.png", 
+            img(src="https://raw.githubusercontent.com/jesupb/viaje/main/viaje/www/Slide5.JPG", 
                 height="100%", width="100%", align="left")
         )
     )

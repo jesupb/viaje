@@ -1,0 +1,13 @@
+name: viaje
+title: viaje
+username:
+account: jesupb
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 4946044
+bundleId: 5172587
+url: https://jesupb.shinyapps.io/viaje/
+when: 1635112943.37739
+lastSyncTime: 1635112943.37739
+asMultiple: FALSE
+asStatic: FALSE
